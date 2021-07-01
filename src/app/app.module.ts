@@ -8,6 +8,7 @@ import { ImagesComponent } from './atoms/images/images.component';
 import { DescriptionComponent } from './atoms/description/description.component';
 import { TitleComponent } from './atoms/title/title.component';
 import { CardComponent } from './molecules/card/card.component';
+import { CardListComponent } from './organimsm/card-list/card-list.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { CardComponent } from './molecules/card/card.component';
     ImagesComponent,
     DescriptionComponent,
     TitleComponent,
-    CardComponent
+    CardComponent,
+    CardListComponent
   ],
   imports: [
     BrowserModule,
